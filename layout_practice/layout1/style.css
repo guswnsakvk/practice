@@ -1,0 +1,39 @@
+.container{
+  width: 700px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.left{
+  width: 65%;
+  height: 100%;
+  float: left;
+}
+
+.picture1{
+  width: 70px;
+  height: 70px;
+  border-radius: 35px;
+  float: left;
+  margin-right: 7px;
+}
+
+.user{
+  padding: 15px;
+}
+
+.time{
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.info{
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.right{
+  float: right;
+  width: 35%;
+  height: 100%;
+}
