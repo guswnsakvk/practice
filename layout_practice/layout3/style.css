@@ -1,0 +1,82 @@
+body{
+  background-color: rgb(194, 190, 190);
+}
+
+.dataForm{
+  height: 500px;
+  width: 450px;
+  background-color: #eee;
+  margin: 0 auto;
+  box-shadow: 5px 5px 5px gray;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.container{
+  height: 400px;
+  width: 400px;
+  padding-left: 10px;
+}
+
+.title{
+  font-size: 30px;
+  margin-bottom: 27px;
+}
+
+.guide-email{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.getEmail{
+  width: 90%;
+  height: 30px;
+  border: none;
+  margin-bottom: 15px;
+}
+
+.info-name{
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.guide-first{
+  font-size: 20px;
+  margin-right: 100px;
+}
+
+.guide-last{
+  font-size: 20px;
+}
+
+.data{
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.firstName{
+  height: 30px;
+  margin-right: 24px;
+}
+
+.lastName{
+  height: 30px;
+}
+
+.guide-message{
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.decision{
+  display: flex;
+  margin-top: 10px;
+}
+
+.btn{
+  margin-left: 193px;
+  border: none;
+  padding: 7px 25px;
+  background-color: orange;
+  cursor: pointer;
+}
