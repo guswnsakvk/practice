@@ -5,8 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <link rel="stylesheet" href="./style.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+  <link rel="stylesheet" href="./style.css">
   
   <title>Document</title>
 </head>
@@ -15,7 +15,7 @@
     <p class="formName">Your shopping cart</p>
     <table class="table">
       <thead class="thead">
-        <tr>
+        <tr class="tr-bottom">
           <td colspan="2">ITEM</td>
           <td>AMOUT</td>
           <td>PRICE</td>
@@ -24,34 +24,40 @@
       </thead>
         
       <tbody class="tbody">
-        <tr>
+        <tr class="tr-bottom">
           <td>
             <img class="picture1" src="./img/picture1.jfif" alt="#">
           </td>
-          <td>
-            <p class="left">SONY</p>
-            <p>FE 70-200 mm F2.8 GM OSS</p>
+          <td class="left">
+            <p>SONY</p>
+            <p class="name">FE 70-200 mm F2.8 GM OSS</p>
           </td>
           <td>1</td>
           <td>2,787,100</td>
           <td>2,787,100</td>
-        <tr>
+        <tr class="tr-bottom">
           <td>
             <img class="picture2" src="./img/picture2.jpg" alt="#">
           </td>
-          <td>
+          <td class="left">
             <p>SONY</p>
-            <p>Sonnar T* E 24mm F1.8 ZA</p>
+            <p class="name">Sonnar T* E 24mm F1.8 ZA</p>
           </td>
           <td>1</td>
           <td>890,000</td>
           <td>890,000</td>
         </tr>
-        <tr>
-          <td colspan="5">3,677,100</td>
+        <tr class="tr-height">
+          <td colspan="4"></td>
+          <td class="price">3,677,100</td>
         </tr>
       </tbody>
     </table>
+
+    <div class="submit">
+      <a href="#">Edit your shopping cart</a>
+      <p class="btn">Choose payment method</p>
+    </div>
   </div>
 </body>
 </html>

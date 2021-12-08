@@ -2,10 +2,20 @@ body{
   background-color: rgb(143, 197, 233);
 }
 
+.tr-bottom{
+  border-bottom: 2px solid rgb(143, 197, 233);
+}
+
+td{
+  text-align: center;
+  vertical-align: middle;
+  width: 200px;
+}
+
 .form{
   margin: 0 auto;
   width: 700px;
-  height: 400px;
+  height: 350px;
 }
 
 .formName{
@@ -18,27 +28,51 @@ body{
 .table{
   background-color: #fff;
   border-radius: 10px;
+  border-spacing: 500px;
 }
 
 .thead{
   color: rgb(143, 197, 233);
-  border-bottom: 2px solid rgb(143, 197, 233);
-  height: 25px;
+  height: 35px;
 }
 
 .picture1{
-  width: 200px;
-  height: 150px;
+  width: 150px;
+  height: 100px;
 }
 
 .picture2{
-  width: 200px;
-  height: 100px;
+  width: 150px;
+  height: 75px;
   background-color: #fff;
 }
 
-td{
-  text-align: center;
-  vertical-align: middle;
-  border: 2px solid #000;
+.left{
+  text-align: left;
+}
+
+.name{
+  width: 250px;
+  color:rgb(143, 197, 233)
+}
+
+.tr-height{
+  height: 50px;
+}
+
+.submit{
+  margin-top: 40px;
+  display: flex;
+  position: relative;
+}
+
+.btn{
+  padding: 20px;
+  background-color: rgb(66, 66, 180);
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 190px;
+  position: absolute;
+  right: 0px;
 }
