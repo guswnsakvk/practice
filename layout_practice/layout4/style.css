@@ -1,0 +1,44 @@
+body{
+  background-color: rgb(143, 197, 233);
+}
+
+.form{
+  margin: 0 auto;
+  width: 700px;
+  height: 400px;
+}
+
+.formName{
+  color: rgb(49, 49, 134);
+  font-size: 30px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+}
+
+.table{
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.thead{
+  color: rgb(143, 197, 233);
+  border-bottom: 2px solid rgb(143, 197, 233);
+  height: 25px;
+}
+
+.picture1{
+  width: 200px;
+  height: 150px;
+}
+
+.picture2{
+  width: 200px;
+  height: 100px;
+  background-color: #fff;
+}
+
+td{
+  text-align: center;
+  vertical-align: middle;
+  border: 2px solid #000;
+}
