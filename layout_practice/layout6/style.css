@@ -1,0 +1,56 @@
+.shopping-bg{
+  padding: 20px;
+  background-color: #eee;
+}
+
+.shopping-container{
+  display: flex;
+  margin: auto;
+  width: 50%;
+}
+
+.shopping-item{
+  width: 33%;
+  margin: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.shopping-item img{
+  width: 100%;
+  display: block;
+}
+
+.overlayout-wrap{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  
+}
+
+.overlayout-wrap:hover .overlayout{
+  top: 100%;
+  background-color: rgba(0, 0, 0, .3);
+  transform: translateY(-100%);
+}
+
+.overlayout{
+  transition: all 1s ease;
+  top: 100%;
+  position: absolute;
+  width: 100%;
+  height: 50%;
+}
+
+.money{
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 6px;
+  color: #fff;
+  font-size: 30px;
+}
+
+.info{
+  color: #fff;
+  margin-left: 20px;
+}
