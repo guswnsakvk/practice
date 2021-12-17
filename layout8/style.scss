@@ -1,0 +1,57 @@
+@mixin box-design($bg-color) {
+  @include fontAndSize(600px);
+  margin: 20px 0;
+  background-color: $bg-color;
+  border-radius: 5px;
+}
+
+@mixin fontAndSize($width) {
+  width: $width;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 20px;
+}
+
+body{
+  padding: 20px;
+}
+
+ul{
+  li{
+    display: block;
+    border: 1px solid #000;
+    @include fontAndSize(600px);
+  }
+  :hover{
+    background-color: royalblue;
+    color: #fff;
+  }
+}
+
+.container{
+  .box-green{
+    @include box-design(green);
+  }
+  .box-blue{
+    @include box-design(skyblue);
+  }
+  .box-yellow{
+    @include box-design(yellow);
+  }
+}
+
+.row{
+  display: flex;
+  .col-6{
+    @include fontAndSize(50%);
+    border: 1px solid #000;
+  }
+  .col-4{
+    @include fontAndSize(33%);
+    border: 1px solid #000;
+  }
+  .col-2{
+    @include fontAndSize(25%);
+    border: 1px solid #000;
+  }
+}
