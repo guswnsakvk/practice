@@ -1,0 +1,72 @@
+.container{
+  display: flex;
+}
+
+.menu-bar{
+  width: 150px;
+  height: 100vh;
+  background-color: #000;
+  color: #fff;
+  box-sizing: border-box;
+  transform: translateX(-75px);
+  transition: all 1s;
+}
+
+.menu-bar:hover{
+  transform: translateX(0px);
+}
+
+.menu{
+  line-height: 100px;
+  transform: translateX(80px);
+  font-size: 20px;
+}
+
+.item{
+  transform: translateX(0);
+  font-size: 18px;
+}
+
+.btn{
+  padding: 10px 20px;
+  background-color: #6fbaf8;
+  color: #fff;
+  text-align: center;
+  width: 130px;
+  height: 40px;
+  line-height: 20px;
+  box-sizing: border-box;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+.btn:hover{
+  animation-name: shake-btn;
+  animation-duration: 1s;
+}
+
+.plus{
+  margin-left: 150px;
+  margin-top: 50px;
+  font-size: 30px;
+}
+
+.plus:hover{
+  animation-name: shake-plus;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes shake-btn{
+  0%{transform: rotate(0deg);}
+  25%{transform: rotate(-10deg);}
+  50%{transform: rotate(10deg);}
+  75%{transform: rotate(-10deg);}
+  100%{transform: rotate(0deg);}
+}
+
+@keyframes shake-plus {
+  0%{transform: rotate(0deg);}
+  50%{transform: rotate(-20deg);}
+  100%{transform: rotate(50deg) scale(1.5);}
+}
