@@ -1,0 +1,91 @@
+.grid-container1{
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px 100px;
+  grid-gap: 10px;
+  grid-template-areas: 
+  "nav nav nav nav"
+  "side1 side2 side2 side2"
+  "side1 side2 side2 side2";
+}
+
+.grid-nav{
+  grid-area: nav;
+  border: 1px solid #000;
+}
+
+.side1{
+  grid-area: side1;
+  border: 1px solid #000;
+}
+
+.side2{
+  grid-area: side2;
+  border: 1px solid #000;
+}
+
+@media screen and (max-width: 768px){
+  .grid-container1{
+    display: block;
+  }
+
+  .grid-container1 div{
+    height: 100px
+  }
+}
+
+.grid-container2{
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 150px 150px 150px;
+  grid-gap: 10px;
+  grid-template-areas: 
+  "picture1 picture1 picture2"
+  "picture1 picture1 picture3"
+  "picture4 picture5 picture6";
+}
+
+.grid-container2 div{
+  border: 1px solid #000;
+}
+
+.grid-container2 div img{
+  width: 100%;
+  height: 100%;
+}
+
+.picture1{
+  grid-area: picture1;
+}
+
+.picture2{
+  grid-area: picture2;
+}
+
+.picture3{
+  grid-area: picture3;
+}
+
+.picture4{
+  grid-area: picture4;
+}
+
+.picture5{
+  grid-area: picture5;
+}
+
+.picture6{
+  grid-area: picture6;
+}
+
+@media screen and (max-width: 768px){
+  .grid-container2{
+    display: block;
+  }
+
+  .grid-container2 img{
+    height: 150px;
+  }
+}
